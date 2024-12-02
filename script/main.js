@@ -195,14 +195,14 @@ const animationTimeline = () => {
             y: -25,
             rotationZ: -45,
         },
-        "-=2"
+        "-=3"
     )
     .from(".hat", 1, {
         x: -100,
         y: 350,
         rotation: -180,
         opacity: 0,
-    })
+    }, "-=1")
     .staggerFrom(
         ".wish-hbd span",
         0.7, {
